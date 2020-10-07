@@ -11,7 +11,7 @@ my_stop_words=['in','a','just','its','them','ways','what','most','years','re','i
 def parse_args():    
     parser = argparse.ArgumentParser(description='Uses some basic Natural Language Processing to identify keywords in job descriptions than can then be used on a resume.')
     parser.add_argument('--data', type=str,
-                        help='name of data file', default='../data/jobs.json')
+                        help='name of data file', default='data/jobs.json')
     parser.add_argument('--bigrams', type=int,
                         help='number of bigrams', default='30')
     parser.add_argument('--trigrams', type=int,
