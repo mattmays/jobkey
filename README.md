@@ -1,6 +1,6 @@
-# Project Title
+# jobkey
 
-jobkey - A Job Description Keyword Analyzer
+A Job Description Keyword Analyzer
 
 ## Description
 
